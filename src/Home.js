@@ -13,32 +13,40 @@ function home()
                         <div class="navigation">
                             <div class="navComponent">
                                 <div class="navImg">
-                                    <img src="https://media.istockphoto.com/id/1250000899/vector/chat-bot-robot-avatar-in-circle-round-shape-isolated-on-white-background-stock-vector.jpg?s=170667a&w=0&k=20&c=mBC-3kaZ9ZeGVA8Oo-O3S17sh-gzAow4dL-4cACP57M="></img>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/7717/7717267.png"></img>
                                 </div>
                                 <div class="navHead">
                                     CHATBOT
                                 </div>
                             </div>
                             <div class="navComponent">
-                                <div class="navImg"></div>
+                                <div class="navImg">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/950/950851.png"></img>
+                                </div>
                                 <div class="navHead">
                                     STORY TIME
                                 </div>
                             </div>
                             <div class="navComponent">
-                                <div class="navImg"></div>
+                                <div class="navImg">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/5985/5985765.png"></img>
+                                </div>
                                 <div class="navHead">
                                     CREATIVITY
                                 </div>
                             </div>
                             <div class="navComponent">
-                                <div class="navImg"></div>
+                                <div class="navImg">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3663/3663335.png"></img>
+                                </div>
                                 <div class="navHead">
                                     MEDITATION
                                 </div>
                             </div>
                             <div class="navComponent">
-                                <div class="navImg"></div>
+                                <div class="navImg">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/8638/8638228.png"></img>
+                                </div>
                                 <div class="navHead">
                                     SUGGESTIONS
                                 </div>
