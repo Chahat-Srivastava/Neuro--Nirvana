@@ -1,64 +1,48 @@
 import React from 'react';
+import Navigation from './Navigation';
 import ReactDOM from 'react-dom/client';
 import './Home.css'
-
-function home()
+import Link from 'react'
+function Home()
 {
     return (
         <>
-            <div class="bgImage">
-                <div class="header"></div>
-                <div class="sectionContainer">
-                    <section class="leftSection">
-                        <div class="navigation">
-                            <div class="navComponent">
-                                <div class="navImg">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/7717/7717267.png"></img>
-                                </div>
-                                <div class="navHead">
-                                    CHATBOT
-                                </div>
+            
+                    <section class="rightSection">
+
+                        <div class="mainContainer">
+                            <div class="header-mainContainer">
+                                <h4>STORYTIME</h4>
                             </div>
-                            <div class="navComponent">
-                                <div class="navImg">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/950/950851.png"></img>
+                            <div class="main-mainContainer">
+                                <div class="icon">
+                                    <img src="https://2.bp.blogspot.com/-yWGFohNVRt8/UYvqnRo7P7I/AAAAAAAAAA8/tSIBF8GFQQo/s660/14226215-two-kids-reading-books.jpg" class="icon-image" />
+                                    
+                                    <div class="btn">
+
+                                        COMICS
+                                    </div>
+                                    
+
                                 </div>
-                                <div class="navHead">
-                                    STORY TIME
+                                <div class="icon">
+                                    <img src="https://tse4.mm.bing.net/th?id=OIP.vHJgGd2ds60I-xIdb8phJAAAAA&pid=Api&P=0&h=220" class="icon-image" />
+                                    <div class="btn">
+                                        NOVELS
+                                    </div>
+
                                 </div>
-                            </div>
-                            <div class="navComponent">
-                                <div class="navImg">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/5985/5985765.png"></img>
-                                </div>
-                                <div class="navHead">
-                                    CREATIVITY
-                                </div>
-                            </div>
-                            <div class="navComponent">
-                                <div class="navImg">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/3663/3663335.png"></img>
-                                </div>
-                                <div class="navHead">
-                                    MEDITATION
-                                </div>
-                            </div>
-                            <div class="navComponent">
-                                <div class="navImg">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/8638/8638228.png"></img>
-                                </div>
-                                <div class="navHead">
-                                    SUGGESTIONS
+                                <div class="icon">
+                                    <img src="https://image.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg" class="icon-image" />
+                                    <div class="btn">
+                                        ARTICLES
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <section class="rightSection"></section>
-                </div>
-                
-            </div>
         </>
     )
 }
-
-export default home;
+export default Home;
