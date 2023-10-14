@@ -15,11 +15,9 @@ const Creativity = () => {
                             <div class="main-mainContainer">
                             <div class="icon">
                                     <img src="https://img.freepik.com/free-vector/hand-drawn-flat-people-dancing_23-2149054026.jpg?size=626&ext=jpg&uid=R119596575&ga=GA1.2.879722347.1696602360" class="icon-image" />
+                                    <div class="btn">DANCING</div>
                                     
-                                    <div class="btn"><a href="http://localhost:3000/Dancing">
-DANCING
-                              </a>          
-                                    </div>
+                                    
                                 
 
                                 </div>
@@ -32,8 +30,11 @@ DANCING
                                 </div>
                                 <div class="icon">
                                     <img src="https://img.freepik.com/premium-vector/painting-flat-illustration-with-someone-who-paints-using-easel-canvas-brushes-watercolor_2175-3930.jpg?size=626&ext=jpg&uid=R119596575&ga=GA1.2.879722347.1696602360" class="icon-image" />
-                                    <div class="btn">
-                                        SKETCHING
+                                    
+                                    <div class="btn"><a href="http://localhost:3000/Sketching">
+SKETCHING
+                              </a>          
+                                    
                                     </div>
 
                                 </div>

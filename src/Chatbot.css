@@ -1,0 +1,15 @@
+
+.text-box{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    background: rgba(250, 255, 252, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.2rem;
+}

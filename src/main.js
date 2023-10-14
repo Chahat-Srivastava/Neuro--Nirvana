@@ -16,12 +16,14 @@ import Suggestions from './Suggestions';
 import Navigation from './Navigation';
 import Chatbot from './Chatbot'
 import Comics from './Comics'
-import Dancing from './Dancing'
+import Sketching from './Dancing'
 import Affirmation from './Affirmation'
 import Affirmation_next from './Affirmation_next'
 import Video from './video'
 import NavBar from 'react'
 import Outlet from 'react'
+import logo from '../src/assets/logo.jpg'
+import logo2 from '../src/assets/logo2.png'
 const main = () => {
   return (
     <>
@@ -35,7 +37,11 @@ const main = () => {
 
         </div>
         <div class="main_data">
-c3
+          <div class="he1">
+          <img src={logo2} height="100vh"/></div>
+          <div class="he">
+            neuroNIRAVANA</div>
+          
         </div>
         <div class="user_photo Logo">
           
@@ -62,7 +68,7 @@ c3
                         <Route path="/Meditation" element={<Meditation />} />
                         <Route path="/Suggestions" element={<Suggestions />} />
                          
-                        <Route path="/Dancing" element={<Dancing />} />
+                        <Route path="/Sketching" element={<Sketching />} />
                         <Route path="/Affirmation" element={<Affirmation />} />
                         <Route path="/Affirmation_next" element={<Affirmation_next />} />
                         
