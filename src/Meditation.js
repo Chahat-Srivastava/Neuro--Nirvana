@@ -29,7 +29,9 @@ const Meditation = () => {
                                 <div class="icon">
                                     <img src="https://img.freepik.com/free-vector/self-confidence-concept-illustration_114360-6835.jpg?w=740&t=st=1697137609~exp=1697138209~hmac=5dfdefc6c51d73cf16aee11fa247dd550d00d65e5e1e1ad6dcf6d5e380cc60bb" class="icon-image" />
                                     <div class="btn">
+                                        <a href='http://localhost:3000/Affirmation'>
                                         AFFIRMATION
+                                        </a>
                                     </div>
 
                                 </div>

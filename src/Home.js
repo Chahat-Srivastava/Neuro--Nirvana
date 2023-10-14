@@ -3,7 +3,8 @@ import Navigation from './Navigation';
 import ReactDOM from 'react-dom/client';
 import './Home.css'
 import Link from 'react'
-function Home()
+import Outlet from 'react'
+const Home = () =>
 {
     return (
         <>
@@ -16,12 +17,17 @@ function Home()
                             </div>
                             <div class="main-mainContainer">
                                 <div class="icon">
-                                    <img src="https://2.bp.blogspot.com/-yWGFohNVRt8/UYvqnRo7P7I/AAAAAAAAAA8/tSIBF8GFQQo/s660/14226215-two-kids-reading-books.jpg" class="icon-image" />
-                                    
+                                    <img src="https://2.bp.blogspot.com/-yWGFohNVRt8/UYvqnRo7P7I/AAAAAAAAAA8/tSIBF8GFQQo/s660/14226215-two-kids-reading-books.jpg" class="icon-image animations" />
+                                    <a href="http://localhost:3000/Comics">
                                     <div class="btn">
-
+                                    
                                         COMICS
+                                           
                                     </div>
+                                    </a>
+                                    
+                                   
+                                    
                                     
 
                                 </div>
